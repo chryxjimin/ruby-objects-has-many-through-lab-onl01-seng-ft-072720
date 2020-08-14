@@ -21,6 +21,7 @@ class Doctor
       appointments.collect {|a| a.patient}
    end
 
+
    def self.all
      @@all
    end
